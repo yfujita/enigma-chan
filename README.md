@@ -1,5 +1,11 @@
 # enigma-chan
 
+Simulator for Enigma.
+
+## Github Pages
+
+https://yfujita.github.io/enigma-chan/dist/enigma.html
+
 ## Environments
 
 - Node.js v18
