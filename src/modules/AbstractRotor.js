@@ -30,7 +30,7 @@ class AbstractRoter {
   roll() {
     this.offset++;
     if (this.offset == this._firstTable().length) {
-      this.offset == 0;
+      this.offset = 0;
       return true;
     }
     return false;
