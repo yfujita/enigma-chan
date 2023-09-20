@@ -1,16 +1,17 @@
 import { PlugBord } from "./PlugBord";
 import { Reflector } from "./Reflector";
-import { RouterI } from "./RoterI";
-import { RouterII } from "./RoterII";
-import { RouterIII } from "./RoterIII";
+import { RoterI } from "./RoterI";
+import { RoterII } from "./RoterII";
+import { RoterIII } from "./RoterIII";
 
 class Enigma {
   constructor(offset1, offset2, offset3) {
     this.plugBord = new PlugBord();
-    this.roters = [];
-    this.roters.push(new RouterI(offset1));
-    this.roters.push(new RouterII(offset2));
-    this.roters.push(new RouterIII(offset3));
+    this.roters = [
+      new RoterI(offset1),
+      new RoterII(offset2),
+      new RoterIII(offset3)
+    ];
     this.reflector = new Reflector();
   }
 

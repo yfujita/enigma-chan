@@ -1,6 +1,6 @@
 import { AbstractRoter } from "./AbstractRotor";
 
-class RouterII extends AbstractRoter {
+class RoterII extends AbstractRoter {
   _firstTable() {
     return [
       "i", "j", "k", "l", "m", "n", "a", "b", "c", "d", "e", "f", "g", "h", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " "
@@ -14,4 +14,4 @@ class RouterII extends AbstractRoter {
   }
 }
 
-export { RouterII };
+export { RoterII };
