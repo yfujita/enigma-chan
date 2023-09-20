@@ -76,7 +76,7 @@ export default defineComponent({
           </div>
         </div>
         <div class="form-group">
-          <b>Text</b>
+          <b>Text (Alphabet characters only)</b>
           <div class="col-md-10">
             <textarea
               type="text"
